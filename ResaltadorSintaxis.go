@@ -10,7 +10,7 @@ ejecucciones y encontramos que en promedio la funcion que corre de manera concur
 Algo interesante que observamos en nuestro codigo es que en maquinas con menos cores la funcion concurrente
 puede llegar a tardar mas en ejecutar que la funcion sequencial esto se debe a que 
 si el numero de threads que lanza el programa excede el numero de cores de la computadora
-en realidad no se corre de manera concurrente, secciona una core(o las que sean necesarias) y lo crre secuencial.
+en realidad no se corre de manera concurrente, secciona una core(o las que sean necesarias) y lo corre secuencial.
 5. Complejidad
 La complejidad del programa es O(n), si tomamons el archivo como n. Cada vez que corre la funcion, 
 lexer, solo se recorre con un for de manera sequencial. Cuando se corre de manera concurrente, la complejidad es O(n)/num de threads. 
